@@ -8,4 +8,4 @@ def solution(A):
         if(A[x]==1):
             l[x] += zeroCount
     result = sum(l)
-    return result if result < 1000000000 else -1
+    return -1 if result > 1000000000 else result
